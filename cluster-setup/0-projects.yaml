@@ -1,0 +1,28 @@
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: courie
+
+---
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: courie-data
+
+---
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: istio-system
+
+---
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: courie-pipeline
+
+---
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: amq-clusters
